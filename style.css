@@ -183,6 +183,14 @@ section {
     background-color: #000016;
 }
 
+#toto{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-decoration: underline;
+    padding-left: 40px;
+    
+}
 .content2 {
     display: flex;
     justify-content: center;
