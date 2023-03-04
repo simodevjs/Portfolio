@@ -314,7 +314,7 @@ hr{
 
 
 /*--------------------PART6----------------------*/
-@media (max-width:400px){
+@media (max-width:500px){
     .profilpic{
         height: 110px;
         width: 120px;
@@ -323,7 +323,7 @@ hr{
         font-size: 9px;
     }
     header{
-        padding: 12px 50px;
+        padding: 12px 70px;
     }
 
     .navigation a{
