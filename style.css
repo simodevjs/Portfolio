@@ -314,7 +314,7 @@ hr{
 
 
 /*--------------------PART6----------------------*/
-@media (max-width:1023px){
+@media (max-width:400px){
     .profilpic{
         height: 110px;
         width: 120px;
@@ -361,7 +361,7 @@ hr{
     }
     
 }
-
+//*
 @media (max-width:641px){
     .profilpic{
         height: 110px;
