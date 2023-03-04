@@ -363,6 +363,10 @@ hr{
 }
 
 @media (max-width:641px){
+    .profilpic{
+        height: 110px;
+        width: 120px;
+    }
     body{
         font-size: 9px;
     }
