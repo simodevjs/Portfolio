@@ -319,6 +319,9 @@ hr{
         height: 110px;
         width: 120px;
     }
+    body{
+        font-size: 9px;
+    }
     header{
         padding: 12px 50px;
     }
