@@ -13,20 +13,31 @@ header {
     width: 100%;
     position: fixed;
     z-index: 999;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px ;
 }
-
-.projtit{
-    text-decoration: none;
+.logoz{
     color: blue;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
     display: flex;
     justify-content: center;
+
 }
+/*
+.projtit{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding: 20px 20px;
+}*/
 
 #lawla{
     padding: 50px 120px;
@@ -75,7 +86,7 @@ hr{
 
 .cards .card {
     background-color: #fff;
-    width: 75.25em;
+    width: 25.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
@@ -221,44 +232,21 @@ hr{
 
 
 /*--------------------PART6----------------------*/
-@media (max-width:500px){
-    .profilpic{
-        height: 110px;
-        width: 120px;
-    }
+@media (max-width:750px){
     body{
         font-size: 9px;
-    }
-    header{
-        padding: 12px 50px;
-    }
-
-    .navigation a{
-        padding-left: 10px;
-    }
-
-    .title{
-        font-size: 1.8em;
     }
 
     section{
         padding: 80px 20px;
-    }
-
-    .deux h2{
-        font-size: 1em;
-    }
-
-    .deux h3{
-        font-size: 1.6em;
-    }
+    }    
 
     .content{
         flex-direction: column;
         align-items: center;
     }
     .content2{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -271,7 +259,15 @@ hr{
     }
     
 }
-//*
+
+
+@media (max-width:450px){
+    .cards .card {
+        width: 15.25em;
+        
+    }
+}
+/*
 @media (max-width:641px){
     .profilpic{
         height: 110px;

@@ -37,10 +37,14 @@ header {
 .navigation a:hover{
     color: red;
 }
+
+
 section {
     padding: 100px 200px;
 }
-
+#services{
+    padding: 100px 20px;
+}
 hr{
     height: 1px;
     background-color: #3a6cf4;
@@ -150,7 +154,7 @@ hr{
 
 .cards .card {
     background-color: #fff;
-    width: 15.25em;
+    width: 22.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
@@ -316,7 +320,7 @@ hr{
 
 
 /*--------------------PART6----------------------*/
-@media (max-width:500px){
+@media (max-width:750px){
     .profilpic{
         height: 110px;
         width: 120px;
@@ -347,13 +351,28 @@ hr{
     .deux h3{
         font-size: 1.6em;
     }
+    .contact .card {
+        width: 19.25em;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 15px;
+        transition: 0.7s ease;
+    }
+
+    #content-contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap:nowrap;
+    }
 
     .content{
         flex-direction: column;
         align-items: center;
     }
     .content2{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -366,7 +385,11 @@ hr{
     }
     
 }
+
 //*
+@media (max-width:450px){
+
+}
 @media (max-width:641px){
     .profilpic{
         height: 110px;
