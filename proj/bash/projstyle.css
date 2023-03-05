@@ -13,29 +13,23 @@ header {
     width: 100%;
     position: fixed;
     z-index: 999;
-    display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    padding: 10px 200px;
+    padding: 20px;
 }
 
-.logo{
+.projtit{
     text-decoration: none;
     color: blue;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
+    display: flex;
+    justify-content: center;
 }
 
-.navigation a{
-    text-decoration: none;
-    color: blue;
-    font-weight: 500;
-    font-size: 1.1em;
-    padding-left: 30px;
-}
-.navigation a:hover{
-    color: red;
+#lawla{
+    padding: 50px 120px;
 }
 section {
     padding: 100px 200px;
@@ -45,81 +39,12 @@ hr{
     height: 1px;
     background-color: #3a6cf4;
     border: none;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 
 /*---------------Part1 bio---------------------- */
-
-.bio-sec{ 
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: url(images/bck.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-} 
-
-.bio{
-    display: flex;
-    align-items: left;
-}
-
-.profilpic{
-    flex-grow: 1;
-    align-self: center;
-    border-color: #3a6cf4;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 200px;
-}
-
-.deux{
-    flex-grow: 2;
-    margin-left: 20px;
-    align-self: center;
-}
-.bio-sec h2{
-    color: whitesmoke;
-    font-size: 1.0em;
-    font-weight: 500;
-     
-}
-.bio-sec h2 span{
-    display: inline-block;
-    margin-top: 10px;
-    color: gold;
-    font-size: 3em;
-    font-weight: 600;
-}
-.bio-sec h3{
-    color: white;
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.bio-sec-button{
-    color: #fff;
-    background-color: #3a6cf4;
-    text-decoration: none;
-    font-size: 0.8em;
-    font-weight: 600;
-    display: inline-block;
-    padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    transition: 0.7s ease;
-}
-
-.bio-sec-button:hover {
-    background-color: #0a49f6;
-    transform: scale(1.0);
-}
 
 .social-icons a {
     color: #fff;
@@ -150,7 +75,7 @@ hr{
 
 .cards .card {
     background-color: #fff;
-    width: 15.25em;
+    width: 75.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
@@ -187,19 +112,25 @@ hr{
 .projects {
     background-color: #000016;
 }
-
 #toto{
     display: flex;
-    color: white;
     justify-content: space-between;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#toto a{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#toto a h3{
+    color: orange;
     text-decoration: underline;
-    padding-left: 5px;
+    font-weight: 1.1em;
+    font-size: 1.2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
-#toto,a{
-    color: rgb(244, 161, 5);
-    
-}
 
 .content2 {
     display: flex;
@@ -261,37 +192,11 @@ hr{
     color: #601cfc;
 }
 
-/*----------------Part4----------------------*/
-
-.contact .card {
-    background-color: #fff;
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-    transition: 0.7s ease;
-}
-.contact .icon{
-    font-size: 4.5em;
-}
-
-.contact .info h3 {
-    color: #000;
-}
-
-.contact .info p {
-    font-size: 1.5em;
-}
-
-
-
-
 
 /*--------------------PART5----------------------*/
 
 .footer {
-    background-color: #000016;
+    background-color: #b4cf02;
     color: #fff;
     padding: 2em;
     display: flex;
